@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{EB88579D-2714-4426-9ED1-DC28544A1787}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath="..\Analin.f90"/>
+		<File RelativePath="..\Compute_soil_param.f90"/>
+		<File RelativePath="..\Convert2SOL.f90"/>
+		<File RelativePath="..\Define_Rootgrowth.f90"/>
+		<File RelativePath="..\Estimate_SNLI.f90"/>
+		<File RelativePath="..\find_country_acronym.f90"/>
+		<File RelativePath="..\Find_HC_profile.f90"/>
+		<File RelativePath="..\initialize_var.f90"/>
+		<File RelativePath="..\inpoly.f90"/>
+		<File RelativePath="..\INT2CHAR.f90"/>
+		<File RelativePath="..\ISRIC_main.f90"/>
+		<File RelativePath="..\Jump_Label.f90"/>
+		<File RelativePath="..\Make_soil_ID.f90"/>
+		<File RelativePath="..\ModuleGEN.f90"/>
+		<File RelativePath="..\Read_input_list.f90"/>
+		<File RelativePath="..\read_row.f90"/>
+		<File RelativePath="..\What_tex.f90"/>
+		<File RelativePath="..\What_tex_4HC.f90"/>
+		<File RelativePath="..\ZeroGen.f90"/></Filter></Files>
+	<Globals/></VisualStudioProject>

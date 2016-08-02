@@ -1,0 +1,11 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Mon Sep 28 14:57:13 2015
+        MODULE ANALIN__genmod
+          INTERFACE 
+            SUBROUTINE ANALIN(LINE,BLANK,COMMENT,LENGTH)
+              INTEGER(KIND=4) :: LENGTH
+              CHARACTER(LEN=LENGTH) :: LINE
+              LOGICAL(KIND=4) :: BLANK
+              LOGICAL(KIND=4) :: COMMENT
+            END SUBROUTINE ANALIN
+          END INTERFACE 
+        END MODULE ANALIN__genmod
